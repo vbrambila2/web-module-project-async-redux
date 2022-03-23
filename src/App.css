@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #00264d;
+  height: 50rem;
 }
 
 .App-logo {
@@ -42,11 +44,12 @@ h1 {
   font-weight: bold;
   margin: 1rem 0;
   text-decoration: underline;
+  color: white
 }
 
 button {
   border-radius: 0.5rem;
-  background-color: #004d99;
+  background-color: #0059b3;
   color: white;
 }
 
@@ -62,6 +65,7 @@ section {
   margin: 0.25rem;
   background-color: #0073e6;
   color: white;
+  border: solid 0.1rem white;
   border-radius: 0.5rem;
   width: 100%;
 }
@@ -72,4 +76,9 @@ section {
 
 .content:nth-child(3) {
   background-color: #66b3ff;
+}
+
+.content-title {
+  font-size: 1.5rem;
+  font-weight: bold;
 }

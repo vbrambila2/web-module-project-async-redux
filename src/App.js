@@ -22,9 +22,9 @@ function App(props) {
       <h1>Random Activity Generator</h1>
       <button onClick={buttonClick} type="submit">Generate new Activity</button>
       <section>
-          <div className='content'>ACTIVITY: <br />{activity.activity}</div>
-          <div className='content'>TYPE: <br />{activity.type}</div>
-          <div className='content'>PRICE: <br />{activity.price}</div>
+          <div className='content'><div className='content-title'>ACTIVITY:</div> <br />{activity.activity}</div>
+          <div className='content'><div className='content-title'>TYPE:</div> <br />{activity.type}</div>
+          <div className='content'><div className='content-title'>PRICE:</div> <br />${activity.price}</div>
       </section>
     </div>
   );
