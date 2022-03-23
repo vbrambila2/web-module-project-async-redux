@@ -13,11 +13,14 @@ function App(props) {
     fetchAct()
   }, [])
 
-  console.log(activity);
+  const buttonClick = () => {
+    fetchAct()
+  }
 
   return (
     <div className="App">
       <h1>Random Activity Generator</h1>
+      <button onClick={buttonClick} type="submit">Generate new Activity</button>
       <section>
           <div className='content'>ACTIVITY: <br />{activity.activity}</div>
           <div className='content'>TYPE: <br />{activity.type}</div>
