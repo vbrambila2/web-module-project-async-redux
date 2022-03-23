@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-decoration: underline;
+}
+
+section {
+  padding: 1rem;
+  margin: 0 7rem;
+  display: flex;
+  
+}
+
+.content {
+  padding: 1rem;
+  margin: 0.25rem;
+  background-color: #0073e6;
+  color: white;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.content:nth-child(2) {
+  background-color: #1a8cff;
+}
+
+.content:nth-child(3) {
+  background-color: #66b3ff;
+}
